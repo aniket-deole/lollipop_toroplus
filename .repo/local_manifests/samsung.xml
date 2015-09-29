@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="musical-chairs"
+          fetch="https://github.com/" />
+
+<project path="device/samsung/tuna" name="musical-chairs/android_device_samsung_tuna" remote="musical-chairs" />
+<project path="device/samsung/toro" name="musical-chairs/android_device_samsung_toro" remote="musical-chairs" />
+<project path="device/samsung/toroplus" name="musical-chairs/android_device_samsung_toroplus" remote="musical-chairs" />
+<project name="CyanogenMod/android_kernel_samsung_tuna" path="kernel/samsung/toroplus" remote="github" revision="cm-12.1"/>
+<project path="vendor/samsung" name="musical-chairs/proprietary_vendor_samsung" remote="musical-chairs" revision="tm"/>
+
+</manifest>
